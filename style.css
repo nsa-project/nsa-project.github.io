@@ -32,7 +32,8 @@ h2 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    transition-duration: 0.25s;
 }
 .infoButton:hover {
-    background-color: rgb(88, 160, 92);
+    background-color: rgba(16, 82, 20, 0.692);
 }
