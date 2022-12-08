@@ -1,6 +1,10 @@
-function showInfo(menu) {
+function setinfo(cont) {
     var out = document.getElementById("galleryContent");
-    if (menu == 'info') {
-    out.innerHTML = 'DABUSH WURKD!!'
-    }
+    out.innerHTML = cont
+}
+function getValueById(id) {
+    return document.getElementById(id).value
+}
+function setValueById(id, value)  {
+    document.getElementById(id).value = value
 }
