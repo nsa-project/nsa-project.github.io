@@ -6,7 +6,7 @@
 }
 body {
     background-color: darkgray;
-    background-image: url('https://github.com/nsa-project/nsa-project.github.io/blob/main/Project%20Green.png');
+    background-image: url('https://raw.githubusercontent.com/nsa-project/nsa-project.github.io/main/Project%20Green.png');
 }
 h2 {
     text-align: center;
@@ -51,5 +51,5 @@ h2 {
 }
 .planButton:hover {
     background-color: rgba(16, 82, 20, 0.692);
-    background-image: url('https://raw.githubusercontent.com/nsa-project/nsa-project.github.io/main/Project%20Green.png');
+    
 }
