@@ -6,6 +6,8 @@
 }
 body {
     background-image: url('https://raw.githubusercontent.com/nsa-project/nsa-project.github.io/main/Project%20Green.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
 }
 h2 {
     text-align: center;
