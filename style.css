@@ -84,3 +84,8 @@ ul {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
+li {
+    background-color: rgba(152, 215, 44, 0.617);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
