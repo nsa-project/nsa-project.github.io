@@ -22,7 +22,7 @@ h2 {
 }
 .txt {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+    font-size: x-large;
 }
 .txtMiddle {
     font-family: Arial, Helvetica, sans-serif;
@@ -60,7 +60,7 @@ h2 {
 }
 .txtBK {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+    font-size: x-large;
     background-color: rgba(245, 222, 179, 0.671);
 }
 .closeButton {
