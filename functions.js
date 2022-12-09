@@ -10,6 +10,7 @@ function setValueById(id, value)  { //set value of element
 }
 function planBT() { //plan button onclicked
     setinfo('');
-    var img = document.getElementById('image')
+    var img = document.getElementById('image');
     img.src = 'https://png.pngtree.com/png-clipart/20210206/ourmid/pngtree-big-red-flower-with-black-border-clipart-png-image_2890436.jpg'
+    alert('click');
 }
