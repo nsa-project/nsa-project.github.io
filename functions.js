@@ -5,7 +5,7 @@ function setinfo(cont) { //set txt of gallery div
     document.getElementById('closeBT').style.display = 'inline-block';
     var img = document.getElementById('image');
     img.src = ''
-    out.style.margin = '10%';
+    out.style.margin = '10px';
 }
 function getValueById(id) { //get value of element
     return document.getElementById(id).value
