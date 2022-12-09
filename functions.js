@@ -1,6 +1,7 @@
 function setinfo(cont) { //set txt of gallery div
     var out = document.getElementById("galleryContent");
     out.innerHTML = cont
+    document.getElementById('closeBT').style.display = 'block';
 }
 function getValueById(id) { //get value of element
     return document.getElementById(id).value
@@ -17,4 +18,5 @@ function closeGallery() {
     setinfo('');
     var img = document.getElementById('image');
     img.src = ''
+    document.getElementById('closeBT').style.display = 'none';
 }
