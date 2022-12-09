@@ -61,7 +61,8 @@ h2 {
 .txtBK {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    background-color: wheat;
+    background-color: rgba(245, 222, 179, 0.671);
+    padding: 10%;
 }
 .closeButton {
     background-color: #e24c07;
