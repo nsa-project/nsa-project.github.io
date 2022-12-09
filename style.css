@@ -7,7 +7,7 @@
     -webkit-backdrop-filter: blur(10px);
 }
 body {
-    background-image: url('https://raw.githubusercontent.com/nsa-project/nsa-project.github.io/main/Project%20Green.png');
+    background-image: url('https://raw.githubusercontent.com/nsa-project/nsa-project.github.io/main/img/Project%20Green.png');
     background-position-x: center;
     background-attachment: fixed;
     background-size: cover;
@@ -62,4 +62,18 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     background-color: wheat;
+}
+.closeButton {
+    background-color: #e24c07;
+    border: 1px, wheat;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.25s;
+}
+.closeButton:hover {
+    background-color: rgba(189, 8, 8, 0.692);
 }
