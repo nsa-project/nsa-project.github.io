@@ -1,7 +1,8 @@
+document.getElementById('closeBT').style.display = 'none';
 function setinfo(cont) { //set txt of gallery div
     var out = document.getElementById("galleryContent");
     out.innerHTML = cont
-    document.getElementById('closeBT').style.display = 'block';
+    document.getElementById('closeBT').style.display = 'inline-block';
 }
 function getValueById(id) { //get value of element
     return document.getElementById(id).value
