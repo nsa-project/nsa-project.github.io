@@ -26,3 +26,7 @@ function closeGallery() {
     var out = document.getElementById("galleryContent");
     out.style.margin = '0%';
 }
+function indicateInfo() {
+    $('planButton').css("border-style", "none");
+    $('infoButton').css("border-style", "solid");
+}
