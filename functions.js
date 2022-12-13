@@ -30,3 +30,8 @@ function closeGallery() {
     var prev = document.getElementById('prev');
     prev.innerHTML = ''
 }
+function infoBT() {
+    var prev = document.getElementById('prev');
+    prev.innerHTML = 'Info'
+    setinfo('Project <b>GREEN</b> aims to provide more energy efficient ways to power North Star Academy. These include solar panels or wind mills, battery backups, and LED lights. <br> The lights in classrooms and hallways are incandescant, which is very inefficient and wastes 90% of power to heat generation.  LED lights spend more than 85% of energy to lighting, and last longer than other lightbulbs. Battery backups can serve to help keep the school powered during blackouts or lack of energy so that we can avoid using big generators. Solar panels or wind turbines can help decrease energy bills and the amount of carbon released into the air. All of these can contribute alongside other green campaigns to make NSA a better school!')
+}
