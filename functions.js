@@ -21,6 +21,7 @@ function planBT() { //plan button onclicked
     img.src = 'https://raw.githubusercontent.com/nsa-project/nsa-project.github.io/main/img/plan.png';
     var prev = document.getElementById('prev');
     prev.value = 'Plan'
+    alert('yay');
 }
 function closeGallery() {
     setinfo('');
