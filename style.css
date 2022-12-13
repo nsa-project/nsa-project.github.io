@@ -83,6 +83,3 @@ mark {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
-li {
-    font-family: Arial, Helvetica, sans-serif;
-}
